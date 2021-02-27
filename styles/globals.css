@@ -9,12 +9,16 @@
 .container {
     @apply ml-24
 }
+.btn-tel{
+    @apply w-40 h-12 mr-4 mt-2 mb-2 border-2 border-gray-300 rounded-3xl
+}
 .btn-help{
-    @apply w-40 h-12 mt-2 mb-2 bg-red-400 text-white rounded-lg
+    @apply w-40 h-12 mt-2 mb-2 bg-red-400 text-white rounded-3xl
 }
 .logo{
     @applay
 }
+
 
 
 

@@ -7,12 +7,13 @@ import CardSection from '../components/CardSection'
 export default function Home() {
   return (
     <div>
-      {/* <HeroSection/>
+      <HeroSection/>
       <InfoContacto/>
-      <CardSection/>
+      {/* <CardSection/>
       <Card/>
-      <BlogSection/> */}
-     
+      <BlogSection/>  */}
+      
+      
     </div>
   )
 }

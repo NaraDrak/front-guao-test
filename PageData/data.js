@@ -1,90 +1,95 @@
+export const footerListsSecondCol = [
+  {
+    title: "Consorio ARA",
+    label: [
+      {
+        text: "Acerca de Ara",
+        url: "/about",
+      },
+
+      {
+        text: "Relaciones con inversionistas",
+        url: "/about",
+      },
+      {
+        text: "Bolsa de trabajo",
+        url: "/about",
+      },
+    ],
+  },
+  {
+    title: "Horario de atención",
+    label: [
+      {
+        text: "Lunes a viernes 9:00 - 21:00",
+        url: "Fin de semana de 10:00 - 18:00",
+      },
+    ],
+  },
+];
+
+export const footerListsThirdCol = [
+  {
+    title: "Tipos de casas",
+    label: [
+      {
+        text: "Social",
+        url: "/about",
+      },
+      {
+        text: "Medio",
+        url: "/about",
+      },
+      {
+        text: "Dream Lagoons",
+        url: "/about",
+      },
+      {
+        text: "Residencial",
+        url: "/about",
+      },
+      {
+        text: "Residencial Plus",
+        url: "/about",
+      },
+    ],
+  },
+];
 
 
-export const footerLists = [
-    {
-      title: "Consorio ARA",
-      label: [
-        {
-          text: "Acerca de Ara",
-          url: "/about",
-        },
-
-        {
-          text: "Relaciones con inversionistas",
-          url: "/about",
-        },
-        {
-          text: "Bolsa de trabajo",
-          url: "/about",
-        },
-      ],
-
-      title2: "Horario de Atención",
-      label2: [
-        "Lunes a Viernes de 9:00 - 21:00",
-        "Fin de semana  de 10:00 - 18:00",
-      ],
-    },
-    {
-      title: "Tipos de casas",
-      label: [
-        {
-          text: "Social",
-          url: "/about",
-        },
-        {
-          text: "Medio",
-          url: "/about",
-        },
-        {
-          text: "Dream Lagoons",
-          url: "/about",
-        },
-        {
-          text: "Residencial",
-          url: "/about",
-        },
-        {
-          text: "Residencial Plus",
-          url: "/about",
-        },
-      ],
-    },
+    export const footerListsForthCol = [
     {
       title: "Contacto",
       label: [
         {
           text: "Llama gratis",
-          tel: "88888888888",
-          url: "/about",
+          url: "88888888888",
         },
         {
           text: "Desde el exterior",
-          tel: "88888888888",
-          url: "/about",
+          url: "88888888888",
         },
         {
           text: "Correo electronico",
-          tel: "88888888888",
-          url: "/about",
+          url: "88888888888",
         },
       ],
-    },
+    }  ]
+   
+    export const footerListsFivethCol = [
     {
       title: "Servicio Postventas",
       label: [
         {
           text: "En México",
-          tel: "888888888",
-          url: "/about",
+          url: "888888888",
         },
         {
           text: "Correo electronico",
-          tel: "888888888",
-          url: "/about",
+          url: "Lineara@ara.com.mx",
         },
       ],
     },
-  ];
+  ]
 
-  
+ 

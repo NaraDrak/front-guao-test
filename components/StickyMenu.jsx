@@ -2,10 +2,11 @@ import Image from "next/image";
 
 const StickyMenu = () => {
   const titulo = ["DESARROLLO", "CONCEPTO", "PROMOCIONES", "CREDITO", "BLOG", "CONVENIO", "CONTACTO"];
+
   return(
     <div className="bg-white">
-      <div className="container border-2 border-black">
-        <div className="sm:flex space-x-16 items-center border-2 border-black">
+      <div className="container border-2">
+        <div className="sm:flex space-x-16 items-center border-2">
           <Image
             src="/logo.png"
             alt="Picture of the author"

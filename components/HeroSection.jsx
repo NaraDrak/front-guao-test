@@ -1,9 +1,12 @@
-import Image from 'next/image'
+import LeftDraw from "../components/HeroInfo";
+import RightDraw from "../components/InfoContactoCard";
 export default function HeroSection() {
-    return (
-        <div className="relative">
-            <h1></h1>
-      
-        </div>
-    )
+  return (
+    <div className="bg-contain bg-no-repeat bg-hero-pattern md:flex-col lg:flex-row">
+      <div className="flex flex-col  md:flex-row lg:flex-row justify-between">
+        <LeftDraw />
+        <RightDraw />
+      </div>
+    </div>
+  );
 }

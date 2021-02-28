@@ -3,26 +3,71 @@
 @tailwind utilities;
 
 .card {
-    @apply rounded overflow-hidden shadow-lg;
+    @apply rounded overflow-hidden shadow-lg
 }
 
 .container {
     @apply ml-24
 }
 .btn-tel{
-    @apply w-40 h-12 mr-4 mt-2 mb-2 border-2 border-gray-300 rounded-3xl
+    @apply w-40 h-12 mr-4 mt-2 mb-2 ml-8 border-2 border-gray-300 rounded-3xl
 }
 .btn-help{
-    @apply w-40 h-12 mt-2 mb-2 bg-red-400 text-white rounded-3xl
+    @apply w-40 h-12 mt-2 mb-2 ml-8 bg-black text-white rounded-3xl
 }
-.logo{
-    @applay
+.back-to-credit{
+    @apply mt-4
 }
 
+.credit-options{
+    @apply text-blue-800 font-bold text-4xl mt-7
+}
+.invesion-p{
+    @apply text-red-400  font-bold text-lg mt-7
+}
+.ara-account{
+    @apply text-red-400  font-bold text-lg mt-4 mb-5
+}
+.info-request{
+    @apply text-red-600 border-2 border-red-400 font-bold rounded-3xl mt-6 h-12 w-64
+}
+.main-container{
+    @apply flex justify-between border-2 border-gray-400 bg-white mt-36 mb-16  ml-24 mr-24 p-4 w-80 max-h-full shadow-2xl py-4 rounded-md px-6
+}
+.title-card-contacto{
+    @apply text-blue-800 text-2xl font-semibold
+}
+.contact-message{
+    @apply text-gray-500 text-sm font-bold
+}
+.e-mail{
+    @apply text-red-600 text-xs font-bold mt-2
+}
+.call-us{
+    @apply text-black font-bold
+}
+.tel-info-card{
+    @apply flex bg-blue-900 text-white font-semibold py-2 px-4 rounded-md
+}
+.monday-friday{
+    @apply bg-gray-200 font-semibold py-2 px-4 rounded-md
+}
+.weekend{
+    @apply bg-gray-200 font-semibold py-2 px-4 rounded-md
+}
+.abroad{
+    @apply font-bold
+}
+.tel-abroad-card{
+    @apply bg-gray-200 font-semibold py-2 px-4 rounded-md
+}
+.btn-info-request-contact{
+    @apply border-2 border-blue-900 text-blue-900 rounded-3xl p-2
+}
 
-
-
-
+.main-cardSection{
+    @apply flex shadow-2xl border-2 border-gray-100 rounded-md
+}
 
 
 

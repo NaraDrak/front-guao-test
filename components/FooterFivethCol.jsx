@@ -2,20 +2,22 @@ import { footerListsFivethCol } from "../PageData/data";
 
 export default function FooterFivethCol() {
   return (
-    <div className="cuartaColumna">
+    <div className="quintaColumna mt-7 mr-16">
       {footerListsFivethCol.map((item, index) => {
         return (
-          <ul key={index} className="">
-            <h1 className="font-black text-left pl-3">{item.title}</h1>
+          <ul key={index}>
+            <h1 className="font-black text-left">{item.title}</h1>
             {item.label.map((item2, index) => {
               return (
                 <li className="text-left my-2" key={index}>
-                  <a href={item2.url} className="p-3 hover:text-blue-300">
-                    {item2.text}
-                  </a>
+                  <p>{item2.text}</p>
+                  <p>{item2.url}</p>
                 </li>
               );
             })}
+            <div className="mt-8 ml-">
+              <button className=" bg-red-500 ">Paga en linea ahora</button>
+            </div>
           </ul>
         );
       })}

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { MdLocalPhone } from "react-icons/md";
 
 
@@ -5,7 +6,15 @@ const InfoContacto = () => {
   return (
     <div className="main-container">
       <div className="space-y-8">
-        <h1 className="title-card-contacto">INFORMACIÓN DE CONTACTO</h1>
+        <div className="flex">
+        <div className="title-card-contacto">INFORMACIÓN DE CONTACTO</div>
+        <Image
+          src="/ara-icon.png"
+          alt="Picture of the author"
+          width={50}
+          height={50}
+        />
+        </div>
         <p className="contact-message">¿Tienes alguna duda? Nuestros asesores pueden ayudarte</p>
         <a  className="e-mail" href="/">contacto@ara.com.mx</a>
         <h1 className="call-us">¡Llamanos Gratis!</h1>

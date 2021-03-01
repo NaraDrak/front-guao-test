@@ -6,15 +6,18 @@ module.exports = {
       backgroundImage: (theme) => ({
         "hero-pattern": "url('/banner.jpg')",
       }),
-    //Custom color added for footer
+    //Custom color added
     colors: {
       footer: '#313131'
-    }
+    },
+    screens: {
+      'xs': '360px',
     
     },
   variants: {
     extend: {},
   },
   plugins: [],
+}
 }
 }

@@ -33,7 +33,7 @@ const StickyMenu = () => {
           </svg>
         </button> */}
       </div>
-      <div className="w-full text-black block flex-grow lg:flex lg:items-center lg:w-auto">
+      <div className=" text-black block flex-grow lg:flex lg:items-center lg:w-auto">
         <div className="text-sm lg:flex-grow">
           <ul
             className="MenuSectionContainer text-black text-center text-base"
@@ -49,7 +49,7 @@ const StickyMenu = () => {
           </ul>
         </div>
         
-          <div className="w-full flex-col block flex-grow lg:flex lg:items-center lg:w-auto lg:flex-row justify-center">
+          <div className="flex">
             <button className="btn-tel">800 022 0581</button>
             <button className="btn-help">Necesitas ayuda?</button>
           </div>

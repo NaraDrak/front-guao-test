@@ -1,7 +1,7 @@
 export default function NewsLetter() {
   return (
-    <div className="flex justify-between bg-gray-200 h-32 mt-28">
-      <div className="flex flex-col  ml-24 w-96">
+    <div className="flex justify-between bg-gray-200 mt-28">
+      <div className="flex flex-col  ml-24">
         <h1 className="text-3xl font-bold text-black mt-6">NewsLetter</h1>
         <p>Suscribete a nuestro NEWSLETTER para ser el primero en recibir nuestras novedades cada mes</p>
       </div>

@@ -10,10 +10,10 @@
     @apply ml-24
 }
 .btn-tel{
-    @apply w-40 h-12 mr-4 mt-2 mb-2 ml-8 border-2 border-gray-300 rounded-3xl
+    @apply p-2 mt-2 mb-2 border-2 border-gray-300 rounded-3xl ml-16 md:ml-2
 }
 .btn-help{
-    @apply w-40 h-12 mt-2 mb-2 ml-8 bg-black text-white rounded-3xl
+    @apply p-2 mt-2 mb-2 bg-black text-white rounded-3xl ml-16 md:ml-2
 }
 .back-to-credit{
     @apply mt-4
@@ -29,10 +29,10 @@
     @apply text-red-400  font-bold text-lg mt-4 mb-5
 }
 .info-request{
-    @apply text-red-600 border-2 border-red-400 font-bold rounded-3xl mt-6 h-12 w-64
+    @apply text-red-600 border-2 border-red-400 font-bold rounded-3xl mt-6 p-2 justify-center
 }
 .main-container{
-    @apply flex justify-between border-2 border-gray-400 bg-white mt-36 mb-16  ml-24 mr-24 p-4 w-80 max-h-full shadow-2xl py-4 rounded-md px-6
+    @apply flex justify-between border-2 border-gray-400 bg-white mt-36 mb-16 ml-8 shadow-2xl rounded-md py-4 px-6 lg:ml-4 lg:mr-32 invisible md:visible 
 }
 .title-card-contacto{
     @apply text-blue-800 text-2xl font-semibold

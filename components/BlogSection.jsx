@@ -2,7 +2,7 @@ import Card from "../components/Card";
 
 const BlogSection = () => {
   return (
-    <div className="mx-24 mt-56">
+    <div className="md:mx-24 md:mt-56 mt-32">
       <div>
       <h1 className="text-blue-800 font-bold text-3xl mb-4">Nuestro Blog ARA</h1>
       <a className="text-red-600 text-md" href="/about">Ver todos los articulos</a>

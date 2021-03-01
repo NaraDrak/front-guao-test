@@ -1,14 +1,25 @@
+import { FiSend } from "react-icons/fi";
+
 export default function NewsLetter() {
   return (
-    <div className="flex justify-between bg-gray-100 mt-28">
-      <div className="flex flex-col  ml-24">
-        <h1 className="text-3xl font-bold text-black mt-6">NewsLetter</h1>
-        <p>Suscribete a nuestro NEWSLETTER para ser el primero en recibir nuestras novedades cada mes</p>
+    <div className="bg-gray-200 mt-48">
+      <div className="md:ml-24 md:mr-24 md:flex md:justify-between ">
+        <div className="flex flex-col justify-center -mb-25 md:mb-10 mt-6">
+          <div className="text-3xl font-bold text-black mb-4">NewsLetter</div>
+          <p>
+            Suscribete a nuestro NEWSLETTER para ser el
+            <p>primero en recibir nuestras novedades cada mes</p>
+          </p>
+        </div>
+
+        <div className="md:flex md:items-center">
+          <button className="flex mr-8 border-2 h-7 border-red-600 " htmlFor="">
+            <input type="text" placeholder="Escribe tu Email" />
+            <FiSend color="#fff" className="bg-red-600 h-6 w-6" />
+          </button>
+        </div>
+        </div>
       </div>
-      
-      <div>
-          <button className="mr-8" htmlFor="">Escribe tu Email</button>
-      </div>
-    </div>
+   
   );
 }

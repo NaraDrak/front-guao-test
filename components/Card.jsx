@@ -3,30 +3,26 @@ import { firstCardInfo } from "../PageData/data";
 
 const Card = () => {
   return (
-    <div>
+    <>
       {firstCardInfo.map((item, index) => {
         return (
-          <div className="main-cardSection">
-            <div key={index}>
+          <div key={index} className="main-cardSection lg:block">
               <Image
-                className="relative"
                 src={item.imgSource}
                 alt="Picture of the author"
-                width={400}
-                height={250}
+                width={500}
+                height={300}
               />
-              <div>
-                <p>{item.title}</p>
-                <p>{item.text}</p>
-                <a href={item.url} className="hover:text-blue-300">
-                  Mas información
-                </a>
-              </div>
-            </div>
-          </div>
+          
+            <p className="sm:mt-4">{item.title}</p>
+            <p className="max-w-prose" >{item.text}</p>
+            <a href={item.url} className="hover:text-blue-300">
+              Mas información
+            </a>
+            </div>  
         );
       })}
-    </div>
+    </>
   );
 };
 export default Card;

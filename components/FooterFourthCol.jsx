@@ -13,7 +13,7 @@ export default function FooterFourthCol() {
                   <p className="text-left my2" key={index}>
                     {item2.text}
                   </p>
-                  <p className="text-left my2 hover:text-blue-300" key={index}>
+                  <p className="text-left my2 hover:text-blue-300 text-red-500" key={index}>
                     {item2.url}
                   </p>
                 </li>

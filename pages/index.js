@@ -1,4 +1,4 @@
-import HeroSection from '../components/HeroSection'
+import Hero from '../components/Hero'
 import CardSection from '../components/CardSection'
 import BlogSection from '../components/BlogSection'
 import NewsLetter from '../components/NewsLetter'
@@ -6,7 +6,7 @@ import NewsLetter from '../components/NewsLetter'
 export default function Home() {
   return (
     <>
-      <HeroSection/>
+      <Hero/>
       <CardSection/>
       <BlogSection/>
       <NewsLetter/>

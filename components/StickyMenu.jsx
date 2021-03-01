@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { MdLocalPhone } from "react-icons/md";
 
 const StickyMenu = () => {
   const titulo = [
@@ -39,8 +40,10 @@ const StickyMenu = () => {
         </div>
         
           <div className="flex-col block flex-grow lg:flex  lg:flex-row justify-center">
-            <button className="btn-tel">800 022 0581</button>
-            <button className="btn-help">Necesitas ayuda?</button>
+            <button className="btn-tel">
+            <MdLocalPhone className="mx-4 mt-1"/>
+            800 022 0581</button>
+            <button className="btn-help">¿Necesitas ayuda?</button>
           </div>
         
       </div>

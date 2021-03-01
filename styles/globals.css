@@ -50,16 +50,16 @@
     @apply flex bg-blue-900 text-white font-semibold py-2 px-4 rounded-md
 }
 .monday-friday{
-    @apply bg-gray-200 font-semibold py-2 px-4 rounded-md
+    @apply flex bg-gray-200 font-semibold py-2 px-4 rounded-md
 }
 .weekend{
-    @apply bg-gray-200 font-semibold py-2 px-4 rounded-md
+    @apply flex bg-gray-200 font-semibold py-2 px-4 rounded-md
 }
 .abroad{
     @apply font-bold
 }
 .tel-abroad-card{
-    @apply bg-gray-200 font-semibold py-2 px-4 rounded-md
+    @apply flex bg-gray-200 font-semibold py-2 px-4 rounded-md
 }
 .btn-info-request-contact{
     @apply border-2 border-blue-900 text-blue-900 rounded-3xl p-2

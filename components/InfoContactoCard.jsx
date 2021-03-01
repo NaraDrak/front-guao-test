@@ -1,5 +1,7 @@
 import Image from "next/image";
 import { MdLocalPhone } from "react-icons/md";
+import { AiFillClockCircle } from "react-icons/ai";
+
 
 const InfoContacto = () => {
   return (
@@ -33,10 +35,17 @@ const InfoContacto = () => {
             <MdLocalPhone color="#FFFFFF" className="mx-4 mt-1" />
             800 022 0581
           </div>
-          <div className="monday-friday">Lunes a viernes 9:00 - 21:00</div>
-          <div className="weekend">Fin de semana 10:00 - 18:00</div>
+          <div className="monday-friday">
+          <AiFillClockCircle className="mx-4 mt-1"/>
+            Lunes a viernes 9:00 - 21:00</div>
+          <div className="weekend">
+          <AiFillClockCircle className="mx-4 mt-1"/>
+          Fin de semana 10:00 - 18:00</div>
           <p className="abroad">En el extranjero</p>
-          <div className="tel-abroad-card">800 022 0581</div>
+          <div className="tel-abroad-card">
+          <MdLocalPhone color="#000" className="mx-4 mt-1" />
+          800 022 0581
+          </div>
           <div className="flex justify-center">
             <button className="btn-info-request-contact">
               SOLICITAR INFORMACIÓN

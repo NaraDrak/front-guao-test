@@ -2,9 +2,8 @@ import Image from "next/image";
 
 export default function FooterFirstCol() {
   return (
-    <div className="primeraColumna mt-7">
+    <div className="-ml-16">
       <Image
-        className="m-3"
         src="/whitelogo.png"
         alt="Picture of the author"
         width={150}
@@ -12,21 +11,18 @@ export default function FooterFirstCol() {
       />
       <div className="iconContaiener">
         <Image
-          className=""
           src="/facebook.svg"
           alt="Picture of the author"
           width={36}
           height={36}
         />
         <Image
-          className=""
           src="/facebook.svg"
           alt="Picture of the author"
           width={36}
           height={36}
         />
         <Image
-          className=""
           src="/facebook.svg"
           alt="Picture of the author"
           width={36}

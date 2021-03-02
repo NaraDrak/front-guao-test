@@ -6,14 +6,18 @@ import FooterFivethCol from "./FooterFivethCol";
 
 const Footer = () => {
   return (
-    <div className="bg-footer text-white ">
-      <div className="flex flex-col justify-around ml-8 md:flex-row lg:flex-row ">
+    <div className="bg-footer">
+
+    <div className="text-white ml-24 mr-32 p-8">
+      <div className="flex flex-col justify-around md:flex-row lg:flex-row ">
         <FooterFirstCol />
         <FooterSecondCol />
         <FooterThirdCol />
         <FooterListsForthCol />
         <FooterFivethCol />
       </div>
+    </div>
+
     </div>
   );
 };

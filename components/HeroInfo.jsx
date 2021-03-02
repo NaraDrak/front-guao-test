@@ -3,16 +3,15 @@ import { TiArrowBack } from "react-icons/ti";
 
 export default function HeroInfo() {
   return (
-    <div className="w-2/4 ml-24">
+    <div className="w-7/12 sm:ml-11 sm:mr-11">
       <div className="flex items-center">
         <TiArrowBack color="#000" />
         <p className="back-to-credit">Regresar a creditos</p>
       </div>
       <h1 className="credit-options">Opciones de crédito</h1>
       <p className="invesion-p">Tu mejor inversión en casa ARA</p>
-      <figure className="mt-24 w-full">
+      <figure className="mt-24">
         <Image
-          className="relative"
           src="/img-04.jpg"
           alt="Picture of the author"
           width={900}

@@ -32,7 +32,7 @@
     @apply text-red-600 border-2 border-red-400 font-bold rounded-3xl mt-6 p-2 justify-center
 }
 .main-container{
-    @apply flex justify-between border-2 border-gray-400 bg-white mt-36 mb-16 ml-8 shadow-2xl rounded-md py-4 px-6 lg:ml-4 lg:mr-32 invisible md:visible 
+    @apply flex justify-between border-2 border-gray-400 bg-white mt-36 mb-16 ml-12 shadow-2xl rounded-md py-4 px-6 lg:ml-4 invisible md:visible
 }
 .title-card-contacto{
     @apply text-blue-800 text-2xl font-semibold

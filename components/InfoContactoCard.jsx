@@ -6,7 +6,7 @@ import { AiFillClockCircle } from "react-icons/ai";
 const InfoContacto = () => {
   return (
     <div>
-      <div className="md:hidden flex justify-center mt-80 bg-black">
+      <div className="md:hidden  flex justify-center mt-80">
       <button className="md:hidden  bg-red-500 rounded-3xl text-white p-4">
         Dejanos tus datos ¡Nosotros te llamamos!
       </button>

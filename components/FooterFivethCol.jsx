@@ -7,16 +7,20 @@ export default function FooterFivethCol() {
         return (
           <ul key={index}>
             <h1 className="font-black text-left">{item.title}</h1>
-            {item.label.map((item2, index) => {
+            {item.label.map((item2, index2) => {
               return (
-                <li className="text-left my-2" key={index}>
+                <li className="text-left my-2" key={index2}>
                   <p>{item2.text}</p>
-                  <p className=" text-red-500 hover:text-blue-500">{item2.url}</p>
+                  <p className=" text-red-500 hover:text-blue-500">
+                    {item2.url}
+                  </p>
                 </li>
               );
             })}
             <div className="mt-8 ">
-              <button className=" bg-red-500 rounded-3xl py-2 px-7">Paga en linea ahora</button>
+              <button className=" bg-red-500 rounded-3xl py-2 px-7">
+                Paga en linea ahora
+              </button>
             </div>
           </ul>
         );

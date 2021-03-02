@@ -1,13 +1,11 @@
 import "../styles/globals.css";
-import StickyMenu from "../components/StickyMenu";
-import Footer from "../components/Footer";
+import Layout from "../components/Layout";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <>
-       <StickyMenu /> <Component {...pageProps} /> <Footer />
-    </>
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
   );
 }
-
 export default MyApp;

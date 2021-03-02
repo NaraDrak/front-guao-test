@@ -1,15 +1,18 @@
-import Hero from '../components/Hero'
-import CardSection from '../components/CardSection'
-import BlogSection from '../components/BlogSection'
-import NewsLetter from '../components/NewsLetter'
+import Hero from "../components/Hero";
+import CardSection from "../components/CardSection";
+import BlogSection from "../components/BlogSection";
+import NewsLetter from "../components/NewsLetter";
 
 export default function Home() {
   return (
     <>
-      <Hero/>
-      <CardSection/>
-      <BlogSection/>
-      <NewsLetter/>
+      {/* estilizar este div, para que contenga los márgenes  de la página usando CSS o TW */}
+      <Hero />
+      <div className="mx-24">
+        <CardSection />
+        <BlogSection />
+        <NewsLetter />
+      </div>
     </>
-  )
+  );
 }

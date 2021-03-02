@@ -2,89 +2,67 @@
 @tailwind components;
 @tailwind utilities;
 
-
-html,body{
-    height: 100%;
-    width: 100%;
-    margin: 0px;
-    padding: 0px;  
-    overflow-x: hidden;
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
-.btn-help{
-    @apply p-2 mt-2 mb-2 bg-red-600 text-white rounded-3xl 
+.btn-help {
+  @apply p-2 mt-2 mb-2 bg-red-600 text-white rounded-3xl;
 }
-.btn-tel{
-    @apply flex p-2  mt-2 mb-2 border-2 border-gray-300 rounded-3xl
-}
-
-.back-to-credit{
-    @apply mt-4
+.btn-tel {
+  @apply flex p-2  mt-2 mb-2 border-2 border-gray-300 rounded-3xl;
 }
 
-.credit-options{
-    @apply text-blue-800 font-bold text-4xl mt-7
-}
-.invesion-p{
-    @apply text-red-400  font-bold text-lg mt-7
-}
-.ara-account{
-    @apply text-red-400  font-bold text-lg mt-4 mb-5
-}
-.info-request{
-    @apply text-red-600 border-2 border-red-400 font-bold rounded-3xl mt-6 p-2 justify-center
-}
-.main-container{
-    @apply flex justify-between border-2 border-gray-400 bg-white mt-36 mb-16 ml-12 shadow-2xl rounded-md py-4 px-6 lg:ml-4 invisible md:visible
-}
-.title-card-contacto{
-    @apply text-blue-800 text-2xl font-semibold
-}
-.contact-message{
-    @apply text-gray-500 text-sm font-bold
-}
-.e-mail{
-    @apply text-red-600 text-xs font-bold mt-2
-}
-.call-us{
-    @apply text-black font-bold
-}
-.tel-info-card{
-    @apply flex bg-blue-900 text-white font-semibold py-2 px-4 rounded-md
-}
-.monday-friday{
-    @apply flex bg-gray-200 font-semibold py-2 px-4 rounded-md
-}
-.weekend{
-    @apply flex bg-gray-200 font-semibold py-2 px-4 rounded-md
-}
-.abroad{
-    @apply font-bold
-}
-.tel-abroad-card{
-    @apply flex bg-gray-200 font-semibold py-2 px-4 rounded-md
-}
-.btn-info-request-contact{
-    @apply border-2 border-blue-900 text-blue-900 rounded-3xl p-2
+.back-to-credit {
+  @apply mt-4;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.credit-options {
+  @apply text-blue-800 font-bold text-4xl mt-7;
+}
+.invesion-p {
+  @apply text-red-400  font-bold text-lg mt-7;
+}
+.ara-account {
+  @apply text-red-400  font-bold text-lg mt-4 mb-5;
+}
+.info-request {
+  @apply text-red-600 border-2 border-red-400 font-bold rounded-3xl mt-6 p-2 justify-center;
+}
+.main-container {
+  @apply flex justify-between border-2 border-gray-400 bg-white mt-36 mb-16 mr-24 ml-12 shadow-2xl rounded-md py-4 px-6 lg:ml-4 invisible md:visible;
+}
+.title-card-contacto {
+  @apply text-blue-800 text-2xl font-semibold;
+}
+.contact-message {
+  @apply text-gray-500 text-sm font-bold;
+}
+.e-mail {
+  @apply text-red-600 text-xs font-bold mt-2;
+}
+.call-us {
+  @apply text-black font-bold;
+}
+.tel-info-card {
+  @apply flex bg-blue-900 text-white font-semibold py-2 px-4 rounded-md;
+}
+.monday-friday {
+  @apply flex bg-gray-200 font-semibold py-2 px-4 rounded-md;
+}
+.weekend {
+  @apply flex bg-gray-200 font-semibold py-2 px-4 rounded-md;
+}
+.abroad {
+  @apply font-bold;
+}
+.tel-abroad-card {
+  @apply flex bg-gray-200 font-semibold py-2 px-4 rounded-md;
+}
+.btn-info-request-contact {
+  @apply border-2 border-blue-900 text-blue-900 rounded-3xl p-2;
+}

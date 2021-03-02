@@ -3,21 +3,21 @@ import { TiArrowBack } from "react-icons/ti";
 
 export default function HeroInfo() {
   return (
-    <div className="w-7/12 min-w-min">
+    <div className="w-9/12 min-w-min ml-24">
       <div className="flex items-center">
         <TiArrowBack color="#000" />
-        <p className="back-to-credit">Regresar a creditos</p>
+        <p className="back-to-credit mb-8">Regresar a creditos</p>
       </div>
       <h1 className="credit-options">Opciones de crédito</h1>
-      <p className="invesion-p">Tu mejor inversión en casa ARA</p>
-      <figure className="mt-24">
+      <p className="invesion-p mb-16">Tu mejor inversión en casa ARA</p>
+      <div>
         <Image
           src="/img-04.jpg"
           alt="Picture of the author"
-          width={900}
-          height={400}
+          width={1000}
+          height={500}
         />
-      </figure>
+      </div>
       <h1 className="ara-account">Cuenta con ARA</h1>
       <p className="text-base">
         Si necesitas un credito para comprar una casa o departamento pero no

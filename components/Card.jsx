@@ -6,18 +6,28 @@ const Card = () => {
     <div className="w-12/12 min-w-min">
       {firstCardInfo.map((item, index) => {
         return (
-          <div key={index} className="main-cardSection lg:block">
+          <div
+            key={index}
+            className="main-cardSection lg:block border-gray-300 border-2"
+          >
             <Image
               src={item.imgSource}
               alt="Picture of the author"
               width={500}
               height={300}
             />
-            <p className="sm:mt-4">{item.title}</p>
-            <p className="">{item.text}</p>
-            <a href={item.url} className="hover:text-blue-300">
-              Mas información
-            </a>
+            <div className="p-4">
+              <p className="sm:mt-4 text-red-500 text-lg font-bold">
+                {item.title}
+              </p>
+              <p className="">{item.text}</p>
+              <a
+                href={item.url}
+                className="hover:text-blue-300 text-red-300 text-lg font-bold "
+              >
+                Mas información
+              </a>
+            </div>
           </div>
         );
       })}

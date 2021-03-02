@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <StickyMenu /> <Component {...pageProps} /> <Footer />
+       <StickyMenu /> <Component {...pageProps} /> <Footer />
     </>
   );
 }

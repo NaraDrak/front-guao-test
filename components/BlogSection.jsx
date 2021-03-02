@@ -2,7 +2,8 @@ import Card from "../components/Card";
 
 const BlogSection = () => {
   return (
-    <div className="bg-gray-100">
+    <div className="w-full">
+    <div className="bg-gray-100 ">
     <div className="sm:ml-11 sm:mr-11 md:ml-24 md:mr-32">
       <div className="flex md:mt-56">
         <div className=" md:items-center">
@@ -19,6 +20,7 @@ const BlogSection = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
     </div>
   );

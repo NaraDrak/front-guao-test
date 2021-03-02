@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function FooterFirstCol() {
   return (
-    <div className="-ml-16">
+    <div className="-ml-14">
       <Image
         src="/whitelogo.png"
         alt="Picture of the author"

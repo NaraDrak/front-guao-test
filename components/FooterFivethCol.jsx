@@ -15,7 +15,7 @@ export default function FooterFivethCol() {
                 </li>
               );
             })}
-            <div className="mt-8 ml-">
+            <div className="mt-8 ">
               <button className=" bg-red-500 rounded-3xl py-2 px-7">Paga en linea ahora</button>
             </div>
           </ul>

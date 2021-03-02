@@ -6,11 +6,11 @@ export default function FooterThirdCol() {
       {footerListsThirdCol.map((item, index) => {
         return (
           <ul key={index} className="">
-            <h1 className="font-black text-left pl-3">{item.title}</h1>
+            <h1 className="font-black text-left ">{item.title}</h1>
             {item.label.map((item2, index) => {
               return (
                 <li className="text-left my-2" key={index}>
-                  <a href={item2.url} className="p-3 hover:text-blue-300">
+                  <a href={item2.url} className="hover:text-blue-300">
                     {item2.text}
                   </a>
                 </li>

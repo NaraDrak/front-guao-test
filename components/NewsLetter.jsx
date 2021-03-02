@@ -2,14 +2,14 @@ import { FiSend } from "react-icons/fi";
 
 export default function NewsLetter() {
   return (
-    <div className="bg-gray-200 mt-48">
-      <div className="md:ml-24 md:mr-32 md:flex md:justify-between ">
+    <div className="w-12/12 min-w-min bg-gray-200 mt-48">
+      <div className="md:ml-24 md:mr-32 md:flex md:justify-between">
         <div className="flex flex-col justify-center -mb-25 md:mb-10 mt-6">
           <div className="text-3xl font-bold text-black mb-4">NewsLetter</div>
-          <p>
+          <div>
             Suscribete a nuestro NEWSLETTER para ser el
-            <p>primero en recibir nuestras novedades cada mes</p>
-          </p>
+            <div>primero en recibir nuestras novedades cada mes</div>
+          </div>
         </div>
 
         <div className="md:flex md:items-center">

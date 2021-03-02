@@ -12,8 +12,13 @@ export default function Layout(props) {
   return (
     <>
       <Header cambiarVisible={handleCambiarVisible} />
-      {visible ? <MenuMobile /> : props.children}
-      <Footer />
+      {visible ? (
+        <MenuMobile />
+      ) : (
+        <>
+          {props.children} <Footer />
+        </>
+      )}
     </>
   );
 }

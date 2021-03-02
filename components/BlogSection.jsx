@@ -2,8 +2,8 @@ import Card from "../components/Card";
 
 const BlogSection = () => {
   return (
-    <div className="w-full">
-      <div className="bg-gray-100 ">
+    <div className="w-full  min-w-min">
+      <div className="">
         <div className="">
           <div className="flex md:mt-56">
             <div className=" md:items-center">

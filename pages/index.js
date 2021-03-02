@@ -10,9 +10,14 @@ export default function Home() {
       <Hero />
       <div className="mx-24">
         <CardSection />
-        <BlogSection />
-        <NewsLetter />
       </div>
+
+      <div className="bg-gray-100">
+        <div className="mx-24">
+          <BlogSection />
+        </div>
+      </div>
+      <NewsLetter />
     </>
   );
 }

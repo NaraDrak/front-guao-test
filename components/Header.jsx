@@ -37,8 +37,8 @@ const StickyMenu = ({ cambiarVisible }) => {
             <GiHamburgerMenu color="black" />
           </button>
         </div>
-        <div className="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block">
-          <ul className="text-black text-center text-base flex flex-grow">
+        <div className="w-full flex-grow flex-wrap justify-center lg:flex lg:items-center lg:w-auto hidden lg:block">
+          <ul className="text-black text-center text-base flex flex-grow justify-center">
             {titulo.map((nombre, index) => (
               <li key={index} className="">
                 <a href="#" className="p-3 mt-4 hover:text-blue-500">

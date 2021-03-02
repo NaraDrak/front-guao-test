@@ -4,7 +4,7 @@ import { AiFillClockCircle } from "react-icons/ai";
 
 const InfoContacto = () => {
   return (
-    <div className="w-max">
+    <div className="w-max mr-16 ml-24">
       <div className="main-container">
         <div className="space-y-8">
           <div className="flex">
@@ -14,8 +14,9 @@ const InfoContacto = () => {
             <Image
               src="/ara-icon.png"
               alt="Picture of the author"
-              width={80}
-              height={30}
+              width={40}
+              height={50}
+              layout={"intrinsic"}
             />
           </div>
           <p className="contact-message">

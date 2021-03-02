@@ -2,7 +2,7 @@ import { FiSend } from "react-icons/fi";
 
 export default function NewsLetter() {
   return (
-    <div className="w-12/12 min-w-min bg-gray-200 mt-48">
+    <div className="w-full bg-gray-100 mt-48 flex justify-center lg:inline-block">
       <div className="md:ml-24 md:mr-32 md:flex md:justify-between">
         <div className="flex flex-col justify-center -mb-25 md:mb-10 mt-6">
           <div className="text-3xl font-bold text-black mb-4">NewsLetter</div>
@@ -18,8 +18,7 @@ export default function NewsLetter() {
             <FiSend color="#fff" className="bg-red-600 h-6 w-6" />
           </button>
         </div>
-        </div>
       </div>
-   
+    </div>
   );
 }

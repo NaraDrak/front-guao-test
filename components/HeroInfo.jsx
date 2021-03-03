@@ -3,7 +3,7 @@ import { TiArrowBack } from "react-icons/ti";
 
 export default function HeroInfo() {
   return (
-    <div className="w-9/12 min-w-min ml-24">
+    <div className="w-9/12 min-w-min ml-24 mr-24">
       <div className="flex items-center">
         <TiArrowBack color="#000" className="mb-4 h-6 w-6" />
         <a href="#" className="back-to-credit mb-8 hover:text-activeColor">

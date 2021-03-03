@@ -14,7 +14,11 @@ export default function NewsLetter() {
 
         <div className="md:flex md:items-center">
           <button className="flex mr-8 border-2 h-7 border-red-600 " htmlFor="">
-            <input type="text" placeholder="Escribe tu Email" />
+            <input
+              type="text"
+              placeholder="Escribe tu Email"
+              className="w-80"
+            />
             <FiSend color="#fff" className="bg-red-600 h-6 w-6" />
           </button>
         </div>

@@ -11,8 +11,7 @@ export default function Home() {
       <div className="mx-24">
         <CardSection />
       </div>
-
-      <div className="bg-gray-100">
+      <div className="bg-gray-100 py-28">
         <div className="mx-24">
           <BlogSection />
         </div>

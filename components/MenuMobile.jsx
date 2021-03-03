@@ -12,7 +12,7 @@ export default function MenuMobile() {
     "CONTACTO",
   ];
   return (
-    <div className="flex flex-col justify-between items-center mx-24">
+    <div className="flex flex-col justify-between items-center">
       <div>
         <div>
           <ul className="flex flex-col text-black text-center text-base">
